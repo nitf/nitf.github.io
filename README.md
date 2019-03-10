@@ -1,2 +1,2 @@
-# nitf.github.io
-https://nitf.github.io/
+# MY INTRODUCE
+アクセスするとIQが3になるサイト
