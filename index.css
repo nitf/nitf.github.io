@@ -1,0 +1,108 @@
+body {
+    background: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+}
+
+header {
+    padding: 0.5em 1em;
+    color: #474747;
+    background: whitesmoke;
+    border-left: double 7px #3261e2;
+    border-right: double 7px #3261e2;
+}
+
+header h1 {
+    font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    padding: 0em;;
+}
+
+.about-me {
+    position: relative;
+    padding: 0.25em 0;
+}
+
+.about-me h2:after {
+    content: "";
+    display: block;
+    height: 4px;
+    background: -moz-linear-gradient(to right, rgb(51, 101, 238), transparent);
+    background: -webkit-linear-gradient(to right, rgb(51, 101, 238), transparent);
+    background: linear-gradient(to right, rgb(51, 101, 238), transparent);
+}
+
+.my-hobby {
+    position: relative;
+    padding: 0.25em 0;
+}
+
+.my-hobby h2:after {
+    content: "";
+    display: block;
+    height: 4px;
+    background: -moz-linear-gradient(to right, rgb(51, 101, 238), transparent);
+    background: -webkit-linear-gradient(to right, rgb(51, 101, 238), transparent);
+    background: linear-gradient(to right, rgb(51, 101, 238), transparent);
+}
+
+.what-iam-doing {
+    position: relative;
+    padding: 0.25em 0;
+}
+
+.what-iam-doing h2:after {
+    content: "";
+    display: block;
+    height: 4px;
+    background: -moz-linear-gradient(to right, rgb(51, 101, 238), transparent);
+    background: -webkit-linear-gradient(to right, rgb(51, 101, 238), transparent);
+    background: linear-gradient(to right, rgb(51, 101, 238), transparent);
+}
+
+.github {
+    color: #5b6683
+}
+
+.twitter {
+    color: #0599fb
+}
+
+.instagram {
+    color: #fb05c6
+}
+
+footer {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #5d627b;
+    background: white;
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+
+.my-hobby ul {
+    color: #000000;
+    border: dashed 2px #668ad8;
+    background: #f1f8ff;
+    padding: 0.5em 0.5em 0.5em 2em;
+}
+
+.my-hobby ul li {
+    line-height: 1.5;
+    padding: 0.5em 0;
+}
+
+.what-iam-doing ul {
+    padding: 0;
+    position: relative;
+}
+
+.what-iam-doing ul li {
+    color: #000000;
+    border-left: solid 8px rgb(255, 136, 0);
+    background: whitesmoke;
+    margin-bottom: 5px;
+    line-height: 1.5;
+    border-radius: 0 15px 15px 0;
+    padding: 0.5em;
+    list-style-type: none!important;
+}
