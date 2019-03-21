@@ -1,65 +1,100 @@
 body {
-    background: #ffffff;
+    padding: 0.3em 0.4em;
+    background: #4e4e4e;
+    color: white;
     font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
 }
 
 header {
-    padding: 0.5em 1em;
-    color: #474747;
-    background: whitesmoke;
-    border-left: double 7px #3261e2;
-    border-right: double 7px #3261e2;
+    letter-spacing: 12px;
+    color: white;
+    background: #4e4e4e;
+    border-bottom: solid 3px #3b3a3a;
 }
 
-header h1 {
-    font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+header h3 {
+    padding: 0.1em 0.2em;
+    font-family: serif;
     padding: 0em;;
 }
 
 .about-me {
+    letter-spacing: 7px;
+    text-align: center;
     position: relative;
-    padding: 0.25em 0;
+    padding: 0 55px;
 }
 
-.about-me h2:after {
-    content: "";
-    display: block;
-    height: 4px;
-    background: -moz-linear-gradient(to right, rgb(51, 101, 238), transparent);
-    background: -webkit-linear-gradient(to right, rgb(51, 101, 238), transparent);
-    background: linear-gradient(to right, rgb(51, 101, 238), transparent);
+.about-me:before, .about-me:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 45px;
+    height: 1px;
+    background-color: rgb(255, 0, 0);  
+}
+
+.about-me:before {
+    left: 0;
+}
+
+.about-me:after {
+    right: 0;
 }
 
 .my-hobby {
+    letter-spacing: 7px;
+    text-align: center;
     position: relative;
-    padding: 0.25em 0;
+    padding: 0 55px;
 }
 
-.my-hobby h2:after {
-    content: "";
-    display: block;
-    height: 4px;
-    background: -moz-linear-gradient(to right, rgb(51, 101, 238), transparent);
-    background: -webkit-linear-gradient(to right, rgb(51, 101, 238), transparent);
-    background: linear-gradient(to right, rgb(51, 101, 238), transparent);
+.my-hobby:before, .my-hobby:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 45px;
+    height: 1px;
+    background-color: rgb(255, 0, 0);  
+}
+
+.my-hobby:before {
+    left: 0;
+}
+
+.my-hobby:after {
+    right: 0;
 }
 
 .what-iam-doing {
+    letter-spacing: 7px;
+    text-align: center;
     position: relative;
-    padding: 0.25em 0;
+    padding: 0 55px;
 }
 
-.what-iam-doing h2:after {
-    content: "";
-    display: block;
-    height: 4px;
-    background: -moz-linear-gradient(to right, rgb(51, 101, 238), transparent);
-    background: -webkit-linear-gradient(to right, rgb(51, 101, 238), transparent);
-    background: linear-gradient(to right, rgb(51, 101, 238), transparent);
+.what-iam-doing:before, .what-iam-doing:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 45px;
+    height: 1px;
+    background-color: rgb(255, 0, 0);  
+}
+
+.what-iam-doing:before {
+    left: 0;
+}
+
+.what-iam-doing:after {
+    right: 0;
 }
 
 .github {
-    color: #5b6683
+    color: #ffffff
 }
 
 .twitter {
@@ -74,8 +109,8 @@ footer {
     text-align: center;
     padding: 0.5em 1em;
     margin: 2em 0;
-    color: #5d627b;
-    background: white;
+    color: #ffffff;
+    background: #4e4e4e;
     border-top: solid 5px #5d627b;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
 }
