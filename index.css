@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    letter-spacing: 12px;
+    letter-spacing: 5px;
     color: white;
     background: #4e4e4e;
     border-bottom: solid 3px #3b3a3a;
@@ -14,7 +14,7 @@ header {
 
 header h3 {
     padding: 0.1em 0.2em;
-    font-family: serif;
+    font-family: "Century";
     padding: 0em;;
 }
 
