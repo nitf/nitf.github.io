@@ -1,21 +1,48 @@
 body {
     padding: 0.3em 0.4em;
-    background: #4e4e4e;
-    color: white;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
     font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
 }
 
 header {
     letter-spacing: 5px;
-    color: white;
-    background: #4e4e4e;
-    border-bottom: solid 3px #3b3a3a;
+    color: rgb(0, 0, 0);
+    background: #ffffff;
+    border-bottom: solid 3px #818183;
 }
 
 header h3 {
     padding: 0.1em 0.2em;
-    font-family: "Century";
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
     padding: 0em;;
+}
+
+h2 {
+    margin : 30px;
+    position: relative;
+    padding : 20px ;
+    color: #323332;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+}
+
+h2:before, h2:after {
+    content: '';
+    position: absolute;
+    top: -7px;
+    width: 2px;
+    height: -webkit-calc(100% + 14px);
+    height: calc(100% + 14px);
+    background-color: black;
+}
+
+h2:before {
+    left: 7px;
+}
+
+h2:after {
+    right: 7px;
 }
 
 .about-me {
@@ -109,9 +136,9 @@ footer {
     text-align: center;
     padding: 0.5em 1em;
     margin: 2em 0;
-    color: #ffffff;
-    background: #4e4e4e;
-    border-top: solid 5px #5d627b;
+    color: #000000;
+    background: #ffffff;
+    border-top: solid 5px #d3d4d6;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
 }
 
@@ -135,9 +162,9 @@ footer {
 .what-iam-doing ul li {
     color: #000000;
     background: whitesmoke;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     line-height: 1.5;
-    border-left: solid 8px rgb(255, 0, 0);
+    border-left: solid 8px rgb(98, 107, 148);
     border-radius: 0 15px 15px 0;
     padding: 0.5em;
     list-style-type: none!important;
